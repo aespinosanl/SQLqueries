@@ -1,0 +1,9 @@
+/* You have three tables,
+
+1. grades (student_id, course_id, grade)
+2. courses (course_id, name)
+3. students (student_id, name)
+
+if grade<6 fail if grade >= 6 pass 
+
+Return the ratio Fail/Total Students descending to select the hardest course to pass
